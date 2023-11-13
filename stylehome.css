@@ -1,0 +1,13 @@
+
+.topnav{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: oblique; color: white; text-align: right;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+background-color: black;
+margin-right: 40px;}
+body {background-color: black;}
+#fichatecnica {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; font-weight: bold; text-align: center;}
+#descricao {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; text-align: center;}
+#joaopastoriza {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; font-weight: bold; text-align: center;}
+#sobremim {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; text-align: center;}
+#contato {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; font-weight: bold; text-align: center;}

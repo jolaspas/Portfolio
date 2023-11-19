@@ -1,13 +1,44 @@
-
-.topnav{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: oblique; color: white; text-align: right;
+@font-face {
+    font-family: bessemer-bold;
+    src: url(bessemer-bold.ttf);}
+ @font-face {
+    font-family: botanika-mono;
+    src: url(BotanikaMonoRegular.ttf);}
+    @font-face {
+        font-family: rubik-italic;
+        src: url(Rubik-Italic.ttf);}
+     @font-face {
+        font-family: rubik-mediumitalic;
+        src: url(Rubik-MediumItalic.ttf);}
+.topnav{font-family:rubik-mediumitalic; color: white; text-align: right;
     position: fixed;
     top: 0; 
     width: 100%;
-background-color: black;
-margin-right: 40px;}
+    height: 30px;
+
+overflow: hidden;}
+#logo {float: left; margin-left: -2070px; size: +200%;line-height: 30px; /* Adiciona esta linha */
+    margin-top: 5px; /* Adiciona esta linha para ajuste fino */}
+#menu {justify-content: center; margin-right: 40px; word-spacing: 30px; font-size: x-large; vertical-align: middle;}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
 body {background-color: black;}
-#fichatecnica {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; font-weight: bold; text-align: center;}
-#descricao {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; text-align: center;}
-#joaopastoriza {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; font-weight: bold; text-align: center;}
-#sobremim {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; text-align: center;}
-#contato {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: white; font-weight: bold; text-align: center;}
+#fichatecnica {font-family: bessemer-bold; color: white; font-weight: bold; text-align: center;  text-size-adjust: 30%;
+    font-size: 30px;
+    margin-left: 350px;
+    margin-right: 350px;}
+#descricao {font-family:botanika-mono; color: white; text-align: center;
+    font-size: 30px;
+    margin-left: 350px;
+    margin-right: 350px;}
+#joaopastoriza {font-family: bessemer-bold; color:  white; font-weight: bold; text-align: center; font-size: 100px;}
+#sobremim {font-family:botanika-mono; color: white; text-align: center;
+    font-size: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+#contato {font-family: bessemer-bold; color: white; font-weight: bold; text-align: center; font-size: 50px;}
+#mail {text-align: center;}
+#contatohl {font-family: bessemer-bold; text-align: center; font-size: 50px;}

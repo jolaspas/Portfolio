@@ -1,15 +1,19 @@
 @font-face {
     font-family: bessemer-bold;
     src: url(bessemer-bold.ttf);}
- @font-face {
+@font-face {
     font-family: botanika-mono;
     src: url(BotanikaMonoRegular.ttf);}
-    @font-face {
-        font-family: rubik-italic;
-        src: url(Rubik-Italic.ttf);}
-     @font-face {
-        font-family: rubik-mediumitalic;
-        src: url(Rubik-MediumItalic.ttf);}
+@font-face {
+    font-family: rubik-italic;
+    src: url(Rubik-Italic.ttf);}
+@font-face {
+    font-family: rubik-mediumitalic;
+    src: url(Rubik-MediumItalic.ttf);}
+@font-face{
+    font-family: planetkosmos;
+    src: url(planetkosmos.TTF);
+}
 .topnav{font-family:rubik-mediumitalic; color: white; text-align: right;
     position: fixed;
     top: 0; 
